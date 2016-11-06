@@ -1,0 +1,22 @@
+.jumbotron { 
+  background: url(https://images.unsplash.com/photo-1434907652076-85f8401482c3?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&cs=tinysrgb&s=67c9ee533df49242dd75864351f988f2) center center; 
+ position: relative;
+ width: 100%;
+    min-height: 600px;
+    background-size: cover;
+    overflow: hidden;
+
+}
+
+.navbar-inverse {
+   background-color: transparent !important;
+   background: transparent;
+   background-image: none;
+   border-color: transparent;
+}
+
+.navbar li { color: #000 } 
+
+.navbar-fixed-top{
+    top:30px;
+}
