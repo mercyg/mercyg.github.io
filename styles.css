@@ -20,3 +20,7 @@
 .navbar-fixed-top{
     top:30px;
 }
+.container-fluid{
+    background-color: bisque;
+    min-height: 300px;
+}
