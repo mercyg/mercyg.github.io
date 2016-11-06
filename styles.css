@@ -1,0 +1,115 @@
+#nav{
+    margin-left: 50%;
+}
+#greeting{
+    font-size:20px;
+}
+
+#small{
+    margin-bottom: 30px;
+}
+#about{
+     background-color: bisque;
+    height: 500px;
+}
+#aboutwords{
+    margin-left: 15%;
+    margin-right: 15%;
+    font-size: 20px;
+}
+body{
+    font-size: 13px;
+}
+#mediaid{
+    font-size: 15px;
+}
+#color{
+    background-color:goldenrod;
+    height: 450px;
+}
+footer{
+    background-color: #222
+}
+
+address{
+    color:#9d9d9d
+}
+h5{
+    color:#9d9d9d
+}
+.id{
+    color:#9d9d9d
+}
+.media-heading{
+    color:brown
+}
+h2{
+    margin-top:70px;
+    text-align: center;
+    margin-bottom: 40px;
+    color:burlywood
+}
+.backid{
+    background-image: url(https://hd.unsplash.com/photo-1414542158951-f32d326a4820); 
+    background-repeat:round;
+    height: 700px;
+}
+.social {
+    margin: 0;
+    padding: 0;
+    margin-left: 30%;
+    margin-top: 20%;
+    
+}
+
+.social ul {
+    margin: 0;
+    padding: 10px;
+}
+
+.social ul li {
+    margin: 15px;
+    list-style: none outside none;
+    display: inline-block;
+}
+.social i {
+    width: 60px;
+    height: 60px;
+    color: #FFF;
+    background-color: #909AA0;
+    font-size: 40px;
+    text-align:center;
+    padding-top: 12px;
+    border-radius: 50%;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -o-border-radius: 50%;
+    transition: all ease 0.3s;
+    -moz-transition: all ease 0.3s;
+    -webkit-transition: all ease 0.3s;
+    -o-transition: all ease 0.3s;
+    -ms-transition: all ease 0.3s;
+}
+
+.social i:hover {
+    color: #FFF;
+    text-decoration: none;
+    transition: all ease 0.3s;
+    -moz-transition: all ease 0.3s;
+    -webkit-transition: all ease 0.3s;
+    -o-transition: all ease 0.3s;
+    -ms-transition: all ease 0.3s;
+}
+.social .fa-facebook { /* round facebook icon*/
+    background: #4060A5;
+}
+
+.social .fa-twitter { /* round twitter icon*/
+    background: #00ABE3;
+}
+.social .fa-google-plus { /* round google plus icon*/
+    background: #e64522;
+}
+.social .fa-instagram{ /* round instagram icon*/
+    background: #375989;
+}
