@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-    <title>Anytime Coffe Shop</title>
+    <title>Meheret Profile</title>
 
     <!-- Bootstrap -->
     <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
@@ -26,7 +26,7 @@
     <![endif]-->
 </head>
 
-<body>
+<body ng-controller="myCtrl">
 
   <nav class="navbar navbar-inverse navbar-fixed-top">
     <div class="container">
@@ -50,36 +50,101 @@
                 <li><a href="contactus.html"><span class="glyhicon glyphicon-envelope" aria-hidden="true"></span>Contact</a></li>
             </ul>
         </div>
-        <!--/.nav-collapse -->
     </div>
 </nav>
 
 
-<div class="jumbotron">
-    <div class="container">
-       <br>
-       <br><br><br><br>
-        <h1>MEHERT GIRMA</h1>
-        <P>DDDDDDDdddddbbbbbbbbbbbbbbbbb</P>
+<div id="home" class="home">
+    <div class="text-center">
+        <h1>Full Stack Web Developer</h1>
+        <a href="#about" class="btn btn-default btn-lg">Continue</a>
     </div>
 </div>
-     <div class="container-fluid" id="about">
-         <div class="row">
-             <div class="col-xs-12 col-sm-7">
-                 dkjfljldflklkfjlkdflkdjf
-             </div>
-         </div>
-     </div>
+<div id="about" class="pad-section">
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-6">
+                <img src="blah.png" alt=""> 
+            </div>
+            <div class="col-sm-6 text-center">
+                <h2>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec in sem cras amet.</h2>
+                <p class="lead">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed interdum metus et ligula venenatis, at rhoncus nisi molestie. Pellentesque porttitor elit suscipit massa laoreet metus.</p>
+            </div>
+        </div>
+    </div>
+</div>
+<div id="services" class="pad-section">
+    <div class="container">
+        <h2 class="text-center">Our Services</h2>
+        <hr />
+        <div class="row text-center">
+            <div class="col-sm-3 col-xs-6">
+                <i class="glyphicon glyphicon-cloud"> </i>
+                <h4>Service 1</h4>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec in sem cras amet. Donec in sem cras amet.</p>
+            </div>
+            <div class="col-sm-3 col-xs-6">
+                <i class="glyphicon glyphicon-leaf"> </i>
+                <h4>Service 2</h4>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec in sem cras amet. Donec in sem cras amet.</p>
+            </div>
+            <div class="col-sm-3 col-xs-6">
+                <i class="glyphicon glyphicon-phone-alt"> </i>
+                <h4>Service 3</h4>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec in sem cras amet. Donec in sem cras amet.</p>
+            </div>
+            <div class="col-sm-3 col-xs-6">
+                <i class="glyphicon glyphicon-bullhorn"> </i>
+                <h4>Service 4</h4>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec in sem cras amet. Donec in sem cras amet.</p>
+            </div>
+        </div>
+    </div>
+</div>
 
-     
 
+<!-- fourth section - Information -->
+<div id="information" class="pad-section">
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-6">
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <h2 class="panel-title">Additional information</h2>
+                    </div>
+                    <div class="panel-body lead">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed hendrerit adipiscing blandit. Aliquam placerat, velit a fermentum fermentum, mi felis vehicula justo, a dapibus quam augue non massa. Duis euismod, augue et tempus consequat, lorem mauris porttitor quam, consequat ultricies mauris mi a metus. Phasellus congue, leo sed ultricies tristique, nunc libero tempor ligula, at varius mi nibh in nisi. Aliquam erat volutpat. Maecenas rhoncus, neque facilisis rhoncus tempus, elit ligula varius dui, quis amet.
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-6">
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <h2 class="panel-title">Additional information</h2>
+                    </div>
+                    <div class="panel-body lead">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed hendrerit adipiscing blandit. Aliquam placerat, velit a fermentum fermentum, mi felis vehicula justo, a dapibus quam augue non massa. Duis euismod, augue et tempus consequat, lorem mauris porttitor quam, consequat ultricies mauris mi a metus. Phasellus congue, leo sed ultricies tristique, nunc libero tempor ligula, at varius mi nibh in nisi. Aliquam erat volutpat. Maecenas rhoncus, neque facilisis rhoncus tempus, elit ligula varius dui, quis amet
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<footer>
+    <hr/>
+    <div class="container">
+        <p class="text-right">Copyright &copy; Your Company 2014</p>
+    </div>
+</footer>
 
 
 
  <script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.5.8/angular.js"></script>    
  <script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.5.8/angular-route.js"></script>
+   
     <script src="bussiness.js"></script>
-    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+//    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
