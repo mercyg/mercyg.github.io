@@ -35,7 +35,7 @@ body {
 /* additional sections */
 
 #home {
-    background: url(https://images.unsplash.com/photo-1431263154979-0982327fccbb?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&cs=tinysrgb&s=c969fe92d41465b7f668d88b44510d1b) no-repeat center center fixed;
+    background: url(https://images.unsplash.com/photo-1456949037425-4b097bbcc0e8?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&cs=tinysrgb&s=161ce5352c72e7747a4dbd5f3f373850) no-repeat center center fixed;
     display: table;
     height: 100%;
     position: relative;
@@ -44,6 +44,9 @@ body {
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
+}
+#homeh1{
+    margin-top:290px;
 }
 
 #about {}
