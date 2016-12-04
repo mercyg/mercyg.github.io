@@ -6,6 +6,66 @@ body, html {
   color: #777;
 }
 
+#title{
+  margin-top:17%;
+}
+h1{
+  color:#282E34;
+ text-shadow: 2px 2px 3px;
+  /*letter-spacing: 2px;*/
+}
+.intro{
+  letter-spacing:7px;
+}
+.intro-divider{
+  border-top:2px solid #282E34;
+  border-bottom: 1px solid #282E34 ;
+}
+.social {
+    /*margin: 0;*/
+    /*padding: 0;*/
+    /*margin-left: 30%;*/
+    /*margin-top: 20%;*/
+    
+}
+
+.social ul {
+    margin: 0;
+    padding: 10px;
+}
+
+.social ul li {
+    margin: 15px;
+    list-style: none outside none;
+    display: inline-block;
+}
+.social i {
+    width: 50px;
+    height: 50px;
+    color: #FFF;
+    background-color: #909AA0;
+    font-size: 30px;
+    text-align:center;
+    padding-top: 12px;
+    border-radius: 50%;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -o-border-radius: 50%;
+    transition: all ease 0.3s;
+    -moz-transition: all ease 0.3s;
+    -webkit-transition: all ease 0.3s;
+    -o-transition: all ease 0.3s;
+    -ms-transition: all ease 0.3s;
+}
+.social .fa-twitter { /* round twitter icon*/
+    background: #00ABE3;
+}
+.social .fa-linkedin { /* round linkedin icon*/
+    background: #0094BC;
+}
+.social .fa-github { /* round github icon*/
+    background: #343434;
+}
 .bgimg-1, .bgimg-2, .bgimg-3 {
   position: relative;
   opacity: 0.65;
@@ -15,7 +75,22 @@ body, html {
   background-size: cover;
 
 }
-
+.white{
+      padding: 50px 0;
+      border-top:1px solid #e7e7e7;
+      border-bottom: 1px solid #e7e7e7;
+}
+.grey{
+  padding:50px 0;
+  border-bottom:1px solid;
+}
+.project1{
+      margin:0;
+}
+.lead{
+  font-size: 18px;
+    font-weight: 400;
+}
 .bgimg-1 {
   background-image: url("https://images.unsplash.com/photo-1445964047600-cdbdb873673d?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&cs=tinysrgb&s=275069d4cf6753f42b36a0d47572015b");
   min-height: 100%;
