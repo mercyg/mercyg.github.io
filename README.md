@@ -1,4 +1,4 @@
 # Personal Portfolio
 
 
-This is my portfolio where I show case the project that I have been building so far. 
+This folder is for my personal portfolio website. It has all my projects. 
